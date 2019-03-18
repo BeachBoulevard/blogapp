@@ -1,6 +1,12 @@
-<h1>THE BLOG</h1>
+{% extends 'base.html' %}
+
+{% block content %}
+
+
 <ul>
-  {% for post in all_posts_list %}
+{% for post in all_posts_list %}
+
     <li>{{ post.text}}</li>
-  {% endfor %}
-</ul>   
+{% endfor %}
+</ul>  
+{% endblock content %} 

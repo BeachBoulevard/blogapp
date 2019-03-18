@@ -1,0 +1,23 @@
+{% load static %}
+<html>
+    <head>
+        <title>THE BLOG</title>
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+        <link rel="icon" type="image/png" href="https://img.icons8.com/windows/32/000000/year-of-dog.png">
+        <img src="{% static "img/logo1.png" %}" alt="My image"/>
+    </head>
+    <body>
+        <script src="{% static 'js/image-trail.js' %}"></script>
+        
+        <header>
+            <h1><a href="{% url 'home' %}"><center>CT'S BLOG</center></a></h1>
+            <h2>A simple blog page, enjoy</h2>
+        </header>
+
+        <div>
+            {% block content %}
+            {% endblock content %}
+        </div>
+    </body>
+
+</html>
