@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath posts mb_project.wsgi --log-file -
+web: gunicorn --pythonpath posts blogapp_project.wsgi --log-file -
