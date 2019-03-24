@@ -1,18 +1,22 @@
+header {
+    border-bottom: 2px solid #999;
+    background-color: black;
+}
+
+body {
+    background-image: url("../background.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%
+  }   
+
 header h1 a {        
     color: #a67c00; 
     }
 
-    
-header {
-    border bottom: 1px solid #999;
-    border margin: 2rem;
-    display flex;
+.leftside {
+   
 }
-
-ul h2  {
-    color: red;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 2em;
-    font-weight: bold;
-
+.rightside {
+    
+    
 }

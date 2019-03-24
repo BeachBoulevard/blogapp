@@ -10,8 +10,12 @@
         <script src="{% static 'js/image-trail.js' %}"></script>
         
         <header>
-            <h1><a href="{% url 'home' %}"><center>CT'S BLOG</center></a></h1>   
-            <h1><a href="{% url 'post_new' %}">Add A New Post</a></h1>   
+            <div class="rightside">
+            <h1><a href="{% url 'home' %}"><center>CT'S BLOG</center></a></h1> 
+            </div> 
+            <div class="leftside">
+            <h1><a href="{% url 'post_new' %}">Add A New Post</a></h1>  
+            </div>  
         </header>
 
         <div>
