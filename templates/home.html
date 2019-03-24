@@ -6,7 +6,8 @@
 <ul>
 {% for post in all_posts_list %}
 
-    <li>{{ post.text}}</li>
+    <h2><a href="">{{ post.title}}</a></h2>
+    <p>{{ post.description}}</p>
 {% endfor %}
 </ul>  
 {% endblock content %} 
