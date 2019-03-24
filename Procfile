@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath posts mb_project.wsgi --log-file -
