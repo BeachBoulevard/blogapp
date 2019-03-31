@@ -1,16 +1,18 @@
 header {
     border-bottom: 2px solid #999;
-    background-color: black;
+    background-image: url("../457.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 
 }
 
 body {
-    background-image: url("../background.jpg");
-    background-repeat: no-repeat;
-    background-size:100% 100%
+    background-color: #FAFF7F;
+    
+    
   }   
 
 header h1 a {        
-    color: #a67c00; 
+    color:white; 
     }
 
 .leftside {
@@ -36,4 +38,9 @@ button {
 
 button:hover {
     background-color: #a67c00;
+}
+
+ul h2 a{
+color: #a67c00;
+
 }
